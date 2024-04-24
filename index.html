@@ -11,52 +11,39 @@
             padding: 0;
         }
 
-        /* Set background image */
         header {
             position: relative;
-            padding: 70px;
+            padding: 60px;
             text-align: center;
             color: #fff;
         }
-
-        /* Apply semi-transparent background color */
         header::before {
             content: "";
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(rgba(0, 46, 93, 0.9), rgba(0, 98, 184, 0.9)), url('vga.jpg'); /* Adjust the RGBA color and opacity as needed */
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background: linear-gradient(rgba(0, 46, 93, 0.9), rgba(0, 98, 184, 0.7)), url('vga.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             z-index: -1;
         }
 
-        nav {
-            text-align: center;
-            padding: 10px;
-        }
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 40px;
+            margin: 0 45px;
         }
-
         nav a:hover {
             color: #ccc;
-        }        
-        h1 {
-            margin-top: 0;
         }
+
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 0 20px;
-        }
-        p {
-            line-height: 1.6;
         }
     </style>
         <header>
@@ -65,16 +52,16 @@
                 <a href="8bit.html">8-Bit Computer</a>
                 <a href="videocard.html">Graphics Card</a>
                 <a href="6502.html">6502 Computer</a>
+                <a href="RFID.html">NFC & RFID</a>
             </nav>
         </header>
-    
-
 </head>
 <body>
-
     <div class="container">
-        <h2>About</h2>
-        <p>This is a basic project website. You can replace this content with information about your project.</p>
+        <h2>Experience</h2>
+            <li><b>Assistant Systems Administrator</b>, Brigham Young University : <i>September 2022-Present</i></li>
+            <li><b>Production Assembler</b>, Larson Davis : <i>January 2022-May 2022</i></li>
+            <li><b>Assistant Systems Administrator</b>, Brigham Young University : <i>September 2022-Present</i></li>
         <h2>Features</h2>
         <ul>
             <li>Feature 1</li>
@@ -84,5 +71,33 @@
         <h2>Contact</h2>
         <p>You can contact us at <a href="mailto:your@email.com">your@email.com</a>.</p>
     </div>
+    <section>
+
+    </section>
 </body>
+<footer>
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            color: #fff;
+        }
+        footer::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background: linear-gradient(rgba(0, 46, 93, 0.9), rgba(0, 98, 184, 0.7)), url('vga.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+        }
+    </style>
+</footer>
 </html>
